@@ -1,0 +1,12 @@
+:root {
+  /* *Colours */
+  --c-antiquewhite: #faebd7;
+  --c-blueberryblue:#053ce1;
+  --c-blushred:#a03440;
+  --c-primary: #FD2E01;
+  --c-pink:#ffd0d7;
+  --c-black: #000;
+  --c-white: #fff;
+  /* * Fonts*/
+ --f-base: 16px;
+}

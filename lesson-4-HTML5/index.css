@@ -1,0 +1,72 @@
+.header-wrapper {
+  color: var(--c-blueberryblue);
+  padding: 50;
+}
+
+/* *Navigation */
+.navigation-list {
+  list-style-type: none;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.header-navigation {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.navigation-item {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+/* *Logo */
+.logo {
+  display: inline-block;
+}
+
+/* Heading */
+h1 {
+  margin-left: 30px;
+  padding: 20px;
+}
+
+/* *Footer */
+.opening-hours {
+  color: var(--c-blueberryblue);
+  font-size: 30px;
+}
+/* Footer */
+.footer {
+  text-align: center;
+  padding-top: 0px;
+}
+
+/* *Main */
+/* Main text */
+.main-text {
+  background-color: var(--c-pink);
+  color: var(--c-blueberryblue);
+  font-family: "Shrikhand";
+  text-align: center;
+  font-size: 50.6px;
+  padding: 30px;
+  float: left;
+  width: 50%;
+}
+/* Aside */
+.main-additional-text {
+  background-color: var(--c-blueberryblue);
+  font-family: "Shrikhand";
+  color: var(--c-pink);
+  text-align: center;
+  font-size: 35px;
+  padding: 60px;
+  margin: 10px;
+  float: right;
+  width: 45%;
+}
+/* Audio */
+.audio {
+  padding: 220px;
+}

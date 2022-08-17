@@ -1,0 +1,36 @@
+.about {
+  background-color: var(--c-primary);
+  padding-bottom: 20px;
+  padding: 100px;
+  margin: 0;
+}
+/* Heading */
+h1 {
+  font-family: "Shrikhand";
+  color: var(--c-white);
+  text-align: center;
+  font-size: 50.6px;
+  font-weight: 100;
+}
+/* Article */
+.about-general-information {
+  background-color: var(--c-antiquewhite);
+  font-size: var(--f-base);
+  text-align: center;
+  font-style: italic;
+  padding: 20px;
+  margin: 20px;
+}
+/* Link to main page */
+.logo-text {
+  font-size: 20px;
+  padding: 20px;
+}
+/* Video */
+.video {
+  background-color: var(--c-primary);
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}

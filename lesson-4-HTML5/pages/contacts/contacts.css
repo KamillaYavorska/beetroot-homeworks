@@ -1,0 +1,24 @@
+.logo-text {
+  font-size: 20px;
+  padding: 20px;
+}
+/* *Map */
+.map-heading {
+  color: var(--c-blueberryblue);
+  font-family: "Shrikhand";
+  margin-bottom: 50px;
+  text-align: center;
+}
+/* Iframe */
+.map {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+/* Map */
+.map {
+  background-color: var(--c-primary);
+}
