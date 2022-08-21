@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+/* Image */
+img {
+  width: 100%;
+}
+/* * Navigation */
+/* Navigation-container*/
+.wrapper {
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  /* border: red solid 5px; */
+}
+/* Navigation-all-items */
+.navigation-all-items {
+  border-bottom: var(--c-text) 1px solid;
+  max-width: 970px;
+  padding: 28px;
+}
+/* Navigation-item */
+.navigation-item {
+  font-family: "Open Sans";
+  font-size: var(--f-base);
+  display: inline-block;
+  color: var(--c-text);
+  margin-right: 40px;
+  line-height: 24px;
+  font-weight: 400;
+}
+/* Hover */
+.navigation-item:hover {
+  color: var(--c-black);
+  cursor: pointer;
+}
+/* *Banner */
+/* Banner-name */
+.banner-name {
+  font-size: var(--f-heading);
+  font-family: "Open Sans";
+  color: var(--c-black);
+  margin-bottom: 50px;
+  line-height: 64px;
+  text-align: left;
+  margin-top: 12px;
+  font-weight: 700;
+}
+/* *About me */
+/* Background Color */
+.about {
+  background-color: var(--c-bg-gray);
+}
+/* About me title */
+.about-me-title {
+  font-family: "Open Sans";
+  color: var(--c-black);
+  letter-spacing: 0em;
+  padding-top: 100px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 700;
+  font-size: 34px;
+}
+/* About-me-block */
+.about-me-block {
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+  align-items: center;
+  margin-top: 50px;
+  display: flex;
+}
+/* About me title item */
+.about-me-title-item {
+  font-family: "Open Sans";
+  font-size: var(--f-base);
+  padding-bottom: 30px;
+  letter-spacing: 0em;
+  line-height: 25px;
+  font-weight: 400;
+  padding-top: 0px;
+  max-width: 480px;
+}
