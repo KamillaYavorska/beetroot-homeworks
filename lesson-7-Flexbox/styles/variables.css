@@ -1,0 +1,15 @@
+:root {
+  /* * Colours */
+  --c-space-cadet: #173a56;
+  --c-blue-light: #bcd0e5;
+  --c-orange: #ff9900;
+  --c-black: #2f281e;
+  --c-white: #fff;
+  /* * Cubic bezier */
+  --b-normal: cubic-bezier(0.4, 0, 0.2, 1);
+  /* * Transition */
+  --t-normal: 0.35s var(--b-normal);
+  /* * Fonts */
+  --f-family: "Montserrat";
+  --f-size: 16px;
+}

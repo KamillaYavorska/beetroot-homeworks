@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+/* Body */
+body {
+  background-color: var(--c-white);
+  color: var(--c-black);
+}
+/* Wrapper (container)*/
+.wrapper {
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 1230px;
+  margin: 0 auto;
+  width: 100%;
+}
+/* Link */
+a:hover {
+  text-sdecoration: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: var(--c-black);
+}
+/* * Buttons */
+.button {
+  border: none;
+  border: 1px solid var(--c-blue-light);
+  background-color: var(--c-white);
+  font-family: var(--f-family);
+  font-size: var(--f-size);
+  white-space: nowrap;
+  align-items: center;
+  border-radius: 4px;
+  line-height: 20px;
+  font-weight: 600;
+  padding: 0 20px;
+  cursor: pointer;
+  display: flex;
+  height: 46px;
+}
+.button:hover {
+  background-color: var(--c-blue-light);
+  transition: var(--t-normal);
+}
+/* Button--orange */
+.button--orange {
+  background-color: var(--c-orange);
+  border-color: var(--c-orange);
+  color: var(--c-white);
+}
+.button--orange:hover {
+  background-color: var(--c-orange);
+  transition: var(--t-normal);
+  opacity: 0.8;
+}
+
+ul {
+  list-style-type: none;
+}

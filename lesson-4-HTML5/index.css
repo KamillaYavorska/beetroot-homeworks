@@ -54,6 +54,11 @@ h1 {
   float: left;
   width: 50%;
 }
+.main-text:hover {
+  cursor: pointer;
+  background-color: var(--c-blueberryblue);
+  color: var(--c-pink);
+}
 /* Aside */
 .main-additional-text {
   background-color: var(--c-blueberryblue);
@@ -66,6 +71,15 @@ h1 {
   float: right;
   width: 45%;
 }
+
+.main-additional-text:hover {
+  background-color: var(--c-pink);
+  color: var(--c-blueberryblue);
+  cursor: pointer;
+  opacity: 0.6;
+  zoom: 1.2;
+}
+
 /* Audio */
 .audio {
   padding: 220px;
