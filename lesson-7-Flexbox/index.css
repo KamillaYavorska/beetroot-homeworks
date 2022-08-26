@@ -75,6 +75,7 @@
 .footer-heading {
   color: var(--c-black);
   font-family: "Gotham";
+  font-family: sans-serif;
   padding-bottom: 15px;
   line-height: 30px;
   font-weight: 700;
