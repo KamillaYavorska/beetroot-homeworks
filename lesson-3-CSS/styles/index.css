@@ -6,32 +6,33 @@
 body {
   background-color: #024959;
 }
-
+/* Heading */
 h1 {
-  color: #f2e3d5;
-  text-align: center;
-  font-size: 45px;
-  font-weight: 300;
-  font-style: italic;
   text-decoration: underline;
+  padding-left: 250px;
+  font-style: italic;
+  color: #f2e3d5;
+  text-align: left;
+  font-weight: 300;
+  font-size: 45px;
 }
 .general-information {
-  width: 700px ;
+  background-color:#f2e3d5;
   height: 800px;
-  background-color: #f2e3d5;
+  width: 700px ;
 }
 
 .about-me {
-  width: 700;
-  height: 800;
-  color: #026773;
   background-color: #f2e3d5;
+  color: #026773;
+  max-width: 700px;
+  height: 700px;
 }
 
 .about-me-img {
-  width: 210px;
-  height: 300px;
   border-radius: 10px;
+  height: 300px;
+  width: 210px;
 }
 
 .about-me-contacts {
@@ -39,7 +40,18 @@ h1 {
 }
 
 .about-me-heading {
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 17px;
   font-weight: 200;
 }
+
+a {
+  text-decoration: none;
+  color: #026773;
+}
+
+a:hover {
+  cursor: pointer;
+  color: orange;
+}
+

@@ -1,0 +1,12 @@
+:root {
+  /* * Colours */
+  --c-light-gray: #dadada;
+  --c-white: #ffffff;
+  --c-black: #000000;
+  /* * Fonts */
+  --ff-francoisone: "Francois One", sans-serif;
+  --ff-staatliches: "Staatliches", cursive;
+  --ff-ptsans: "PT Sans", sans-serif;
+  --ff-tourney: "Tourney", cursive;
+  --f-farro: "Farro", sans-serif;
+}

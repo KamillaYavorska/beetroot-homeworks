@@ -1,3 +1,13 @@
+/* Homework link */
+.main-page {
+  border: 1px solid blue;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  color: blue;
+  padding: 5px;
+}
+
 .header-wrapper {
   color: var(--c-blueberryblue);
   padding: 50;

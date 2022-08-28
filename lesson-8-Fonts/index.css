@@ -1,0 +1,117 @@
+/* Homework link */
+.main-page {
+  border: 1px solid blue;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  color: blue;
+  padding: 5px;
+}
+
+/* * Header */
+.header-item-text {
+  font-family: var(--ff-tourney);
+  letter-spacing: 0.06em;
+  color: var(--c-black);
+  text-decoration: none;
+  padding-right: 50px;
+  text-align: center;
+  line-height: 18px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.header-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.navigation-list {
+  justify-content: space-between;
+  list-style-type: none;
+  flex-direction: row;
+  display: flex;
+}
+
+.navigation-list-items {
+  font-family: var(--ff-staatliches);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--c-black);
+  line-height: 28px;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.navigation-text {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.header-item {
+  align-items: center;
+  display: flex;
+}
+/* *Article */
+.acricle-heading {
+  font-family: var(--ff-francoisone);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--c-black);
+  line-height: 48px;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.article-text {
+  font-family: var(--ff-ptsans);
+  color: var(--c-black);
+  line-height: 48px;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.article-decoration {
+  text-decoration: underline;
+}
+
+.article-style {
+  font-style: italic;
+}
+
+.acricle-heading {
+  padding-bottom: 40px;
+  padding-top: 70px;
+}
+
+.article-heading-block {
+  align-items: center;
+  display: flex;
+}
+
+.acricle-heading-addition {
+  font-family: var(--f-farro);
+  letter-spacing: 0.04em;
+  color: var(--c-black);
+  padding-left: 10px;
+  line-height: 30px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.chapter {
+  padding-top: 40px;
+}
+
+.weight {
+  font-weight: 700;
+}
+
+.article-text-background {
+  background-color: var(--c-light-gray);
+}
+
+.last-chapter {
+  padding-bottom: 90px;
+}
